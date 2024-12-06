@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen</title>
+    <link href="images/bg.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.13/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.2/dist/cdn.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
+    <style>
+        .svg {
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+        }
+    </style>
+</head> 
+
+<script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    primary: '#1D9A5E',
+                    secondary: '',
+                    tertiary: '',
+                },
+                boxShadow: {
+                    middle: '0px 0px 200px 150px rgba(142, 180, 134, 0.25)',
+                },
+                keyframes: {
+                    fadeIn: {
+                        '0%': { opacity: 0 },
+                        '100%': { opacity: 1 },
+                    },
+                },
+                animation: {
+                    fadeIn: "fadeIn 2s forwards",
+                },
+            },
+        },
+    };
+    </script>
+
+<body class="bg-[#0F2028]">
+    <nav class="relative z-20 w-[90%] mx-auto py-6 px-4">
+        <div class="flex justify-between items-center gap-2">
+            <h1 class="select-none text-lg md:text-xl text-primary font-extrabold">Euphoria</h1>
+            <div class="flex justify-center items-center gap-3">
+                <a href="index.html" class="bg-primary py-2 px-5 rounded-2xl">
+                    <h1 class="text-white text-xs font-semibold">Logout</h1>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="w-[90%] mx-auto pb-5">
+        <div class="absolute top-[35%] left-[30%] w-fit rounded-full shadow-middle"></div>
+        <div class="absolute top-0 right-[5%] w-fit rounded-full shadow-middle"></div>
+        <div class="absolute bottom-[35%] right-[30%] w-fit rounded-full shadow-middle"></div>
+        <div class="absolute bottom-0 left-[5%] w-fit rounded-full shadow-middle"></div>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5">
+            <div class="col-span-1 md:col-span-3 row-span-2 h-fit space-y-5">
+                <div class="bg-green-400 bg-opacity-30 p-7 rounded-xl">
+                    <div class="select-none space-y-2">
+                        <div class="select-none w-fit flex items-center gap-2 bg-slate-100 bg-opacity-20 p-1 pr-5 rounded-2xl">
+                            <div class="bg-[#D2FA00] py-1 px-3 rounded-2xl">
+                                <h1 class="text-black text-xs font-medium">New</h1>
+                            </div>
+                            <h1 class="text-white text-xs font-normal">Payment cards upgraded</h1>
+                        </div>
+                        <h1 class="text-white text-3xl font-semibold">Cross-border payment made easy.</h1>
+                        <p class="text-slate-300 text-base font-medium">We help individuals and business to securely send and receive <br> money globally, without the bank fees.</p>
+                    </div>
+                    <button class="flex justify-center items-center gap-2 bg-primary py-2 px-5 mt-8 rounded-2xl">
+                        <h1 class="text-white text-sm">JoinNow</h1>
+                        <svg class="w-5 stroke-white stroke-[2]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <div class="flex items-center gap-3 bg-green-300 bg-opacity-30 p-5 rounded-xl">
+                        <div class="w-fit bg-green-400 p-2 rounded-full">
+                            <svg class="w-5 stroke-[2] stroke-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 16.5H6" stroke-linecap="round"/>
+                                <path d="M8 13.5H6" stroke-linecap="round"/>
+                                <path d="M14 15C14 14.0572 14 13.5858 14.2929 13.2929C14.5858 13 15.0572 13 16 13C16.9428 13 17.4142 13 17.7071 13.2929C18 13.5858 18 14.0572 18 15C18 15.9428 18 16.4142 17.7071 16.7071C17.4142 17 16.9428 17 16 17C15.0572 17 14.5858 17 14.2929 16.7071C14 16.4142 14 15.9428 14 15Z"/>
+                                <path d="M22 12C22 8.22876 22 6.34315 20.8284 5.17157C19.6569 4 17.7712 4 14 4H10C6.22876 4 4.34315 4 3.17157 5.17157C2 6.34315 2 8.22876 2 12C2 15.7712 2 17.6569 3.17157 18.8284C4.34315 20 6.22876 20 10 20H14C17.7712 20 19.6569 20 20.8284 18.8284C21.4816 18.1752 21.7706 17.3001 21.8985 16" stroke-linecap="round"/>
+                                <path d="M2 10L7 10M22 10L11 10" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="-space-y-1.5">
+                            <p class="text-lg text-gray-900 font-medium">10</p>
+                            <h1 class="text-base text-white font-normal">Card</h1>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3 bg-pink-300 bg-opacity-30 p-5 rounded-xl">
+                        <div class="w-fit bg-pink-400 p-2 rounded-full">
+                            <svg class="w-5 stroke-[2] stroke-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.7769 10L16.6065 11.2941" stroke-linecap="round"/>
+                                <path d="M11 12.8975L13.8978 13.6739" stroke-linecap="round"/>
+                                <path d="M20.3116 12.6473C19.7074 14.9024 19.4052 16.0299 18.7203 16.7612C18.1795 17.3386 17.4796 17.7427 16.7092 17.9223C16.6129 17.9448 16.5152 17.9621 16.415 17.9744C15.4999 18.0873 14.3834 17.7881 12.3508 17.2435C10.0957 16.6392 8.96815 16.3371 8.23687 15.6522C7.65945 15.1114 7.25537 14.4115 7.07573 13.641C6.84821 12.6652 7.15033 11.5377 7.75458 9.28263L8.27222 7.35077C8.35912 7.02646 8.43977 6.72546 8.51621 6.44561C8.97128 4.77957 9.27709 3.86298 9.86351 3.23687C10.4043 2.65945 11.1042 2.25537 11.8747 2.07573C12.8504 1.84821 13.978 2.15033 16.2331 2.75458C18.4881 3.35883 19.6157 3.66095 20.347 4.34587C20.9244 4.88668 21.3285 5.58657 21.5081 6.35703C21.669 7.04708 21.565 7.81304 21.2766 9" stroke-linecap="round"/>
+                                <path d="M3.27222 16.647C3.87647 18.9021 4.17859 20.0296 4.86351 20.7609C5.40432 21.3383 6.10421 21.7424 6.87466 21.922C7.85044 22.1495 8.97798 21.8474 11.2331 21.2432C13.4881 20.6389 14.6157 20.3368 15.347 19.6519C15.8399 19.1902 16.2065 18.6126 16.415 17.9741M8.51621 6.44531C8.16368 6.53646 7.77741 6.63996 7.35077 6.75428C5.09569 7.35853 3.96815 7.66065 3.23687 8.34557C2.65945 8.88638 2.25537 9.58627 2.07573 10.3567C1.91482 11.0468 2.01883 11.8129 2.30728 13" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="-space-y-1.5">
+                            <p class="text-lg text-gray-900 font-medium">10</p>
+                            <h1 class="text-base text-white font-normal">Payment</h1>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3 bg-cyan-300 bg-opacity-30 p-5 rounded-xl">
+                        <div class="w-fit bg-cyan-400 p-2 rounded-full">
+                            <svg class="w-5 stroke-[2] stroke-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.7076 9C15.6314 8.84322 15.5353 8.70688 15.4142 8.58579C14.8284 8 13.8856 8 12 8C10.1144 8 9.17157 8 8.58579 8.58579C8 9.17157 8 10.1144 8 12C8 13.8856 8 14.8284 8.58579 15.4142C9.17157 16 10.1144 16 12 16C13.8856 16 14.8284 16 15.4142 15.4142C15.8858 14.9427 15.9777 14.2398 15.9957 13" stroke-linecap="round"/>
+                                <path d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="-space-y-1.5">
+                            <p class="text-lg text-gray-900 font-medium">10</p>
+                            <h1 class="text-base text-white font-normal">Business</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-span-1 md:col-span-2 row-span-1 h-fit">
+                <div class="bg-white bg-opacity-30 p-10 rounded-xl space-y-3">
+                    <div class="relative w-fit border-2 border-white p-3 rounded-full mx-auto">
+                        <div class="w-32 h-32 bg-white rounded-full">
+                            <img class="w-full h-full object-cover rounded-full" src="imgs/avatar.jpg">
+                        </div>
+                        <div class="absolute top-1 right-1 bg-primary py-1.5 px-3 rounded-lg">
+                            <h1 class="text-xs text-white font-medium">New</h1>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h1 class="text-xl text-black font-medium">Rahman123L</h1>
+                        <p class="text-base text-gray-800 font-normal">Frontend Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const app = gsap.timeline();
+    
+        app.to('#border', {
+            strokeDashoffset: 0,
+            duration: 5,
+            ease: "power1.inOut",
+            repeat: -1
+        });
+    </script>
+</body>
+</html>

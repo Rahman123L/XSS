@@ -1,0 +1,57 @@
+<svg width="500" height="250" viewBox="0 0 500 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="150.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="200.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="250.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="300.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="50.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="100.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="0.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="150.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="200.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="250.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="300.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="50.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="100.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="0.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="150.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="200.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="250.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="300.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="50.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="100.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="0.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="150.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="200.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="250.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="300.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="50.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="100.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="0.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="150.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="200.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="250.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="300.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="50.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="100.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="350.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="400.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="450.5" y="0.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="350.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="400.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="450.5" y="50.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="350.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="400.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="450.5" y="100.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="350.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="400.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="450.5" y="150.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="350.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="400.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<rect x="450.5" y="200.5" width="49" height="49" stroke="#2A3335"/>
+<path id="border" class="svg" d="M250.5 149.5V201.5H199.5H150.5V149.5" stroke="black" stroke-width="3"/>
+<path id="border" class="svg" d="M300.5 201.5H350H400.5V150.5H350H300.5" stroke="black" stroke-width="3"/>
+<path id="border" class="svg" d="M450.5 99.5V51.5H401V99.5H350H300" stroke="black" stroke-width="3"/>
+<path id="border" class="svg" d="M50 50.5H99.5V101H50V151H99.5V200" stroke="black" stroke-width="3"/>
+<path id="border" class="svg" d="M201 99.5H150.5V50.5H201H249.5V99.5" stroke="black" stroke-width="3"/>
+</svg>
